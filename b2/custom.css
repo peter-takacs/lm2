@@ -1,0 +1,91 @@
+/* https://coolors.co/5a7d7c-dadff7-232c33-a0c1d1-b5b2c2 */
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine:400,700');
+
+body {
+    font-family: 'Tangerine', serif;    
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 15px;
+    background: #232C33;
+    color: #DADFF7;
+}
+
+h1 
+{    
+    font-weight: 100;
+}
+
+#logo > h3 {
+    margin-left: 35px;
+    font-weight: 300;
+    padding-right: 50px;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-right: 1px solid #DADFF7;
+}
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menu a {
+    color: #DADFF7;
+    font-size: x-large;
+    font-weight: 100;
+    text-decoration: underline;
+    margin: 0 25 0 25;
+}
+
+#items {
+    font-size: x-large;    
+}
+
+.item {
+    margin: 25px;
+    font-size: xx-large;
+    color: #232C33;
+    width: 100%;
+    border-bottom: 1px solid #A0C1D1;
+}
+
+.item h4 {
+    font-size: xx-large;
+}
+
+.item h4::before {
+    content: "// ";
+    font-size: xx-large;
+    color: #5A7D7C;
+}
+
+#main {
+    display: flex;
+    flex-direction: row    
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+#sidebar a {
+    margin: 5px;
+    font-size: x-large;
+}
+
+#content {
+    margin: 15px;
+}
