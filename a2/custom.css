@@ -1,6 +1,10 @@
 /* https://coolors.co/5a7d7c-dadff7-232c33-a0c1d1-b5b2c2 */
 
+@import url('https://fonts.googleapis.com/css?family=Tangerine:400,700');
 
+body {
+    font-family: 'Tangerine', serif;    
+}
 
 header
 {
@@ -14,12 +18,10 @@ header
 
 h1 
 {    
-    font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
 
 #logo > h3 {
-    font-family: 'Roboto', sans-serif;
     margin-left: 35px;
     font-weight: 300;
     padding-right: 50px;
@@ -43,8 +45,11 @@ h1
     font-size: x-large;
     font-weight: 100;
     text-decoration: underline;
-    font-family: 'Roboto', sans-serif;
     margin: 0 25 0 25;
+}
+
+#items {
+    font-size: x-large;    
 }
 
 .item {
@@ -56,7 +61,7 @@ h1
 }
 
 .item h4 {
-    font-family: 'Roboto', sans-serif;
+    font-size: xx-large;
 }
 
 .item h4::before {
@@ -78,7 +83,7 @@ h1
 
 #sidebar a {
     margin: 5px;
-    font-size: large;
+    font-size: x-large;
 }
 
 #content {
